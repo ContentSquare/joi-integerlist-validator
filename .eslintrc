@@ -1,0 +1,22 @@
+{
+  "extends": ["cs/esCurrent"],
+  "rules": {
+    "max-statements": ["warn", 10, { "ignoreTopLevelFunctions": true }],
+    "max-params": ["warn", 3],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "func-names": ["off"],
+    "no-param-reassign": ["error", { "props": false }],
+    "max-lines": ["warn", 300],
+    "no-underscore-dangle": ["warn"],
+    "import/no-extraneous-dependencies": ["warn"],
+    "no-use-before-define": ["error", { "functions": false }],
+    "comma-dangle": ["warn"],
+    "prefer-rest-params": ["warn"]
+  },
+  "env": {
+    "jasmine": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

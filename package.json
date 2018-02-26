@@ -1,0 +1,23 @@
+{
+  "name": "joi-integerlist-validator",
+  "version": "1.0.0",
+  "description": "Joi validator for list of integer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "keywords": [
+    "joi",
+    "validator",
+    "integerlist"
+  ],
+  "author": "ContentSquare",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "13.0.2",
+    "lab": "^15.2.2"
+  },
+  "devDependencies": {
+    "code": "^5.2.0"
+  }
+}
