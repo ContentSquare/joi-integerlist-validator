@@ -1,6 +1,6 @@
 {
   "name": "joi-integerlist-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Joi validator for list of integer",
   "main": "lib/index.js",
   "scripts": {

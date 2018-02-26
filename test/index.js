@@ -24,11 +24,6 @@ describe('joi-integerlist-validator', () => {
     expect(result.error).to.be.null();
   });
 
-  it('should fails when an negative segment id is provided', () => {
-    const result = schema.validate('1,-2,3');
-    expect(result.error).not.to.be.null();
-  });
-
   it('should fails when an invalid segment list is provided', () => {
     const result = schema.validate('abc');
     expect(result.error).not.to.be.null();
