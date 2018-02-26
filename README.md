@@ -5,7 +5,7 @@ Joi validator for list of integer
 
 Check list of integers seperated by comma.
 
-Examples: 
+Examples:
 
 ```
 1,2,3
